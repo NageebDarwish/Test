@@ -1,0 +1,53 @@
+.dashboard {
+  min-height: 100vh;
+  background-color: #f7f8fa;
+}
+
+.custom-progress {
+  width: 100%;
+  height: 9px;
+  border-radius: 4px;
+  background-color: rgb(214, 212, 212);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.inner-progress {
+  position: relative;
+  background-color: #56b6ff;
+  height: 100%;
+  display: block;
+  width: 50%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: 2s ease;
+  -webkit-transition: 2s ease;
+  -moz-transition: 2s ease;
+  -ms-transition: 2s ease;
+  -o-transition: 2s ease;
+}
+
+.inner-progress::after {
+  content: attr(percent);
+  position: absolute;
+  top: -25px;
+  right: 0;
+  background-color: rgb(116, 116, 116);
+  color: white;
+  width: 38px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}

@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:700);
+
+.text-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 5em;
+  font-weight: 700;
+  color: #ee4b5e;
+}
+
+.subtitle {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1fa9d6;
+}
